@@ -1,0 +1,10 @@
+<!--components/map-handler/map-handler.wxml-->
+<view class="container">
+	<!-- the map it self -->
+	<map class="layer-map" bindtap="tapAction" bindmarkertap="removeMarker" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" scale="14">
+    <!-- the cover -->
+		<view class="layer-cover" wx:if="{{show_cover}}">
+			<text>点击地图添加位置</text>
+		</view>
+	</map>
+</view>
