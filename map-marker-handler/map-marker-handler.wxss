@@ -1,0 +1,18 @@
+/* components/map-handler/map-handler.wxss */
+.container {
+  display: flex;
+}
+
+.layer-cover, .layer-map {
+  width: 100%;
+  height: 500rpx;
+}
+
+.layer-cover {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  opacity: 0.8; 
+}
